@@ -1,0 +1,53 @@
+/*
+ Theme Name:   Read To Lead Theme
+ Theme URI:    http://fredgatesdesign.co/ReadToLead/wp-content/themes/ReadToLeadTheme/
+ Description:  RTL
+ Author:       Fred Gates
+ Author URI:   http://fredgatesdesign.co
+ Template:     twentytwelve
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         custom
+ Text Domain:  ReadToLeadTheme
+*/
+
+
+/* not active */
+.nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: #fff !important;
+}
+
+
+
+/* active (faded) */
+.nav-pills .pill-1 .nav-link {
+    background-color: #f5f5f5 ! important;
+    color: black;
+}
+
+
+
+div.navbar.navbar-expand-lg {
+	background: white !important;
+	z-index:200000;
+	position: fixed;
+	top:0px;
+	width:100%;
+	border-bottom: 1px dotted #666 !important;
+}
+#header {
+		position:fixed;
+		display:block;
+		width: 100%;
+		z-index:200000;
+	}
+
+	
+div.f-align-top {padding-top:80px;}
+	
+/*SUPPRESS ITEMS*/
+	a.post-edit-link {
+	display:none;
+	}
+	
